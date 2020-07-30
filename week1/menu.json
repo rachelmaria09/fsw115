@@ -1,0 +1,79 @@
+{
+	"Menu": [
+        {
+		"Appetizers": [
+            {
+			"Name": "Wings",
+			"Ingredients": ["Chicken", "Buffalo Sauce"],
+			"Description": "Bone-in, spicy and delicious!"
+			},
+			{
+			"Name": "Crab Balls",
+			"Ingredients": ["Crabmeat", "Old Bay", "Egg"],
+			"Description": "All crab, no filler!"
+			},
+			{
+			"Name": "Spinach Dip",
+			"Ingredients": ["Spinach", "Sour Cream", "Cream Cheese", "Bread"],
+			"Description": "Loaded with spinach and spices!"
+			}
+		]
+		},
+		{
+		"Cold Sammies": [
+            {
+			"Name": "The Italian",
+			"Ingredients": ["Bread", "Salami", "Capicolla", "Ham", "Provolone", "Tomato", "Lettuce", "Onion", "Olive Oil", "Salt&Pepper"],
+			"Description": "The works! Layers upon layers of meet and cheese!"
+			},
+			{
+			"Name": "The Club",
+			"Ingredients": ["Bread", "Ham", "Turkey", "Bacon", "Lettuce", "Tomato", "Mayo"],
+			"Description": "A classic! Simple and delicious!"
+			}
+		]
+		},
+		{
+		"Hot Sammies": [
+            {
+			"Name": "Meatball",
+			"Ingredients": ["Meatballs", "Red Sauce", "Bread"],
+			"Description": "Loaded with Meatballs and our homemade red sauce!"
+			},
+			{
+			"Name": "Chicken Parm",
+			"Ingredients": ["Chicken", "Parmesan", "Bread"],
+			"Description": "A classic Italian sub! Crispy Chicken covered in melted parmesan."
+			}
+		]
+		},
+		{
+		"Desserts": [
+            {
+			"Name": "German Chocolate Cake",
+			"Ingredients": ["Chocolate", "Coconut", "Caramel", "Flour", "Egg", "Vanilla"],
+			"Description": "A decadent dessert!"
+			},
+			{
+			"Name": "Vanilla Bean Ice Cream",
+			"Ingredients": ["Vanilla", "cream", "Sugar"],
+			"Description": "A simple dessert that is guaranteed to satisfy your sweet tooth!"
+			}
+		]
+		},
+		{
+		"Drinks": [
+            {
+			"Name": "Cabernet",
+			"Ingredients": ["Cabernet grape", "Sugar", "BlackBerries"],
+			"Description": "A full bodied, dry red that goes with everything on the menu!"
+			},
+			{
+			"Name": "Chardonnay",
+			"Ingredients": ["Chardonnay Grape", "Sugar", "Orange"],
+			"Description": "A refreshing wine with a citrus finish."
+			}
+		]
+		}
+	]
+}
