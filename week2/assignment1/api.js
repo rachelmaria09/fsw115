@@ -1,5 +1,4 @@
-var obj = JSON.parse(
-    {
+var obj = {
     "name": "Darth Maul",
     "height": "175",
     "mass": "80",
@@ -24,5 +23,6 @@ var obj = JSON.parse(
     "created": "2014-12-19T18:00:41.929000Z",
     "edited": "2014-12-20T21:17:50.403000Z",
     "url": "http://swapi.dev/api/people/44/"
-    }
-);
+}
+
+console.log(obj)
