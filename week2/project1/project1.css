@@ -1,0 +1,10 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+#heading {
+    color: orangered;
+}
+#list {
+    list-style-type: none;
+}
