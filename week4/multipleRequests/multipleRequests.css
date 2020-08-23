@@ -1,8 +1,17 @@
 body {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-}
-.backPage {
     background-color: navy;
+    border: 2px solid teal;
+    border-radius: 10px;
+}
+.title1 {
+    font-family: 'Creepster', cursive;
     color: teal;
+}
+.title2 {
+    font-family: 'Creepster', cursive;
+}
+a :backPage {
+    color: white;
 }
