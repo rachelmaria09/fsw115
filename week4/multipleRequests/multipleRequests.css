@@ -1,13 +1,15 @@
 body {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    background-color: navy;
-    border: 2px solid teal;
+    background-color: #97cd4c;
+    border: 2px solid #69C8ECFF;
+    color: #69c8ecff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #3a4767;
     border-radius: 10px;
 }
 .title1 {
     font-family: 'Creepster', cursive;
-    color: teal;
 }
 .title2 {
     font-family: 'Creepster', cursive;
