@@ -1,9 +1,16 @@
-axios.get("https://rickandmortyapi.com/api/character")
-.then(response => {
-    for(let i = 0; i < response.data.length; i++) {
-        const h1 = document.createElement('h1')
-        h1.textContent = response.date[i].title
-        document.body.appendChild(h1)
-    }
-})
-.catch(error => console.log(error))
+var btn1 = document.getElementById("btn1")
+
+function btnClick(){
+    axios.get("https://rickandmortyapi.com/api/character")
+    .then(response => {
+        for(let i = 0; i < response.data.results.length; i++) {
+            const characters = document.createElement('div')
+            characters.textContent = response.data.results[i].name
+            document.body.append(characters)
+        }
+     })
+     .catch(error => console.error(error))
+
+}
+// btn1.addEventListener("click", btnClick)
+btn1.addEventListener("click", btnClick)

@@ -7,6 +7,9 @@ function btnClick(){
             const episodes = document.createElement('div')
             episodes.textContent = response.data.results[i].name
             document.body.append(episodes)
+
+    btn2.addEventListener("click", btnClick)
+
         }
      })
      .catch(error => console.error(error))
