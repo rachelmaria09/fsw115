@@ -10,7 +10,5 @@ function btnClick(){
         }
      })
      .catch(error => console.error(error))
-
-}
-// btn1.addEventListener("click", btnClick)
+    }
 btn1.addEventListener("click", btnClick)
