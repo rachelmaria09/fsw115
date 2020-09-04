@@ -1,8 +1,38 @@
 body {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    background-color: khaki;
 }
 .striked {
     text-decoration: line-through;
     color: red;
+}
+.mainTitle {
+    font-family: 'Cormorant Upright', serif;
+    font-size: 6em;
+    background-color: darkorange;
+    margin: 0;
+    height: 100px;
+}
+.todoForm {
+    background-color: darkred;
+    border-top: 10px solid darkolivegreen;
+    height: 180px;
+}
+.title {
+    margin-top: 40px;
+    height: 30px;
+}
+.description {
+    height: 30px;
+}
+.price {
+    height: 30px;
+}
+.button {
+    background-color: darkolivegreen;
+    border: none;
+    height: 40px;
+    width: 80px;
+    margin: 10px;
 }
