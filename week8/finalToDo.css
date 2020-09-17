@@ -1,0 +1,41 @@
+body {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    background-color: #fff7c8;
+}
+.striked {
+    text-decoration: line-through;
+    color: red;
+}
+.mainTitle {
+    font-family: 'Lobster', cursive;
+    font-size: 4.6em;
+    background-color: #b27878;
+    margin: 0;
+    height: 100px;
+    color: white;
+}
+.todoForm {
+    background-color: #ff8484;
+    border-top: 10px solid #696b7c;
+    height: 180px;
+}
+.title {
+    margin-top: 40px;
+    height: 30px;
+}
+.description {
+    height: 30px;
+}
+.price {
+    height: 30px;
+}
+
+.button {
+    background-color: #696b7c;
+    border: none;
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+    font-family: 'Abel', sans-serif;
+}

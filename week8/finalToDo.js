@@ -1,4 +1,31 @@
 //get
+axios.get("https://swapi.dev/api/starships")
+.then(response => {
+    console.log(response.data.results)
+    for(let i = 0; i < response.data.results.length; i++) {
+        const permanent = document.createElement('div')
+    console.log(response.data.results[i].name)
+
+        permanent.textContent = response.data.results[i].name
+        document.body.append(permanent)
+        const deleteBtn = document.createElement('button')
+        permanent.append(deleteBtn)
+        deleteBtn.textContent = "X"
+        // if(response.data.results[i].completed) {checkbox.checked = true}
+        const checkbox = document.createElement('input')
+        permanent.append(checkbox)
+        checkbox.type="checkbox"
+        checkbox.addEventListener("click", function(event) {
+            if(checkbox.checked === true) {
+                todos.style.textDecoration = "line-through"
+            } if(checkbox.checked === false) {
+                todos.style.textDecoration = "none"
+            }
+        })
+    }
+    }
+)
+
 axios.get("https://api.vschool.io/rachelgildea/todo")
 .then(response => {
     console.log(response.data)
@@ -46,8 +73,6 @@ todoForm.addEventListener("submit", function(event){
 
     const newTodo = {
         title: todoForm.title.value,
-        description: todoForm.description.value,
-        price: todoForm.price.value
     }
     console.log(newTodo)
 
@@ -55,5 +80,3 @@ todoForm.addEventListener("submit", function(event){
     .then(response => console.log(response.data))
     .catch(error => console.log(error))
 })
-
-
